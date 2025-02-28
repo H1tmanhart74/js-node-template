@@ -1,3 +1,3 @@
-var x = 3;
+const eightBall = ['Ball', 8, true,];
 
-console.log(x);
+console.log(eightBall[3]);
