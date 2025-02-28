@@ -1,9 +1,9 @@
-//Calculating a cart total with tax
-const cart = {
-	price: 100,
-	tax: 0.07,
+//Format a full name
+const nameInfo = {
+	firstName: "John",
+	lastName: "Doe",
 };
-function calculateCartTotal(cart) {
-	return cart.price + cart.price * cart.tax;
+function buildFullName(nameInfo) {
+	return `${nameInfo.firstName} ${nameInfo.lastName}`;
 }
-console.log(calculateCartTotal(cart));
+console.log(buildFullName(nameInfo));
