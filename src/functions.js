@@ -1,10 +1,5 @@
-//Calculate order total
-const order = {
-	price: 10,
-	quantity: 2,
-};
-function calculateTotal(price, quantity) {
-	return price * quantity;
+//Formatting a username
+function formatUsername(firstName, lastName) {
+	return `${lastName}, ${firstName}`;
 }
-
-console.log(calculateTotal(order.price, order.quantity));
+console.log(formatUsername("John", "Doe"));
