@@ -1,9 +1,10 @@
-//Format a full name
-const nameInfo = {
-	firstName: "John",
-	lastName: "Doe",
+//Create a game character description
+const character = {
+	name: "Hero",
+	weapon: "Sword",
+	level: 1,
 };
-function buildFullName(nameInfo) {
-	return `${nameInfo.firstName} ${nameInfo.lastName}`;
+function createCharacterDescription(character) {
+	return `Level ${character.level} ${character.name} wielding a ${character.weapon}`;
 }
-console.log(buildFullName(nameInfo));
+console.log(createCharacterDescription(character));
