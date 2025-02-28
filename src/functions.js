@@ -1,6 +1,9 @@
-//Combining strings with a space inbetween
-function combineStrings(string1, string2) {
-	return `${string1} ${string2}`;
+//Calculating a cart total with tax
+const cart = {
+	price: 100,
+	tax: 0.07,
+};
+function calculateCartTotal(cart) {
+	return cart.price + cart.price * cart.tax;
 }
-
-console.log(combineStrings("Hello", "World"));
+console.log(calculateCartTotal(cart));
